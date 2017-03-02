@@ -84,6 +84,7 @@ public class CountView extends LinearLayout {
         mtvCount.setTextSize(13);
         mtvCount.setWidth((int) mDensity * 34);
         mtvCount.setHeight((int) (mDensity * 27));
+        mtvCount.setTextColor(Color.parseColor("#4D4D4D"));
         mtvCount.setBackgroundColor(Color.parseColor("#F5F5F5"));
         mtvCount.setGravity(Gravity.CENTER);
 
